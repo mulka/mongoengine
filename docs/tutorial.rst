@@ -250,5 +250,5 @@ the first matched by the query you provide. Aggregation functions may also be
 used on :class:`~mongoengine.queryset.QuerySet` objects::
 
     num_posts = Post.objects(tags='mongodb').count()
-    print 'Found % posts with tag "mongodb"' % num_posts
+    print 'Found %d posts with tag "mongodb"' % num_posts
     
